@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shuyang Fuzhen Technology</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a0f1a;
+            color: #ffffff;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #121826;
+            padding: 15px 50px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #00aaff;
+        }
+        select {
+            background: #121826;
+            color: #ffffff;
+            border: none;
+            padding: 5px;
+            font-size: 16px;
+        }
+        section {
+            padding: 60px;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #00aaff;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #121826;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Shuyang Fuzhen Technology</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">All Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <select id="language-select">
+                        <option value="en">English</option>
+                        <option value="zh">中文</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Welcome to our Transformer Home Page!</h1>
+        <p>We specialize in the design and manufacture of high-performance transformers, dedicated to providing reliable, efficient, and safe power transmission solutions worldwide.</p>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Founded in 2016, Shuyang Fuzhen Technology has grown into a leading force in the transformer industry, delivering high-quality products across the globe.</p>
+    </section>
+    
+    <section id="products">
+        <h2>All Products</h2>
+        <ul>
+            <li>EI Type Transformers</li>
+            <li>Toroidal Transformers</li>
+            <li>ER40 Transformers</li>
+            <li>PQ Type Transformers</li>
+            <li>POT Type Transformers</li>
+            <li>RM Type Transformers</li>
+            <li>ED Type Transformers</li>
+            <li>EE Type Transformers</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: +49 1744781537</p>
+        <p>WhatsApp: +49 1744781537</p>
+        <p>Email: info@shuyangfuzhen.com</p>
+        <p>Address: Taoyuan Road, Shuyang Economic Development Zone, Shuyang County, Jiangsu Province, China</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Shuyang Fuzhen Technology. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

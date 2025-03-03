@@ -1,0 +1,31 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const languageSelect = document.getElementById("language-select");
+    
+    languageSelect.addEventListener("change", function () {
+        const selectedLanguage = languageSelect.value;
+        
+        if (selectedLanguage === "zh") {
+            document.querySelector("#home h1").textContent = "欢迎来到我们的变压器主页！";
+            document.querySelector("#home p").textContent = "我们专注于高性能变压器的设计和制造，致力于为全球客户提供可靠、高效和安全的电力传输解决方案。";
+            
+            document.querySelector("#about h2").textContent = "关于我们";
+            document.querySelector("#about p").textContent = "成立于2016年，沭阳福臻科技已发展成为变压器行业的领导者，向全球提供高质量的产品。";
+            
+            document.querySelector("#products h2").textContent = "所有产品";
+            
+            document.querySelector("#contact h2").textContent = "联系我们";
+            document.querySelector("#contact p").textContent = "电话: +49 1744781537 | WhatsApp: +49 1744781537 | 邮箱: info@shuyangfuzhen.com | 地址: 江苏省沭阳县经济开发区桃园路";
+        } else {
+            document.querySelector("#home h1").textContent = "Welcome to our Transformer Home Page!";
+            document.querySelector("#home p").textContent = "We specialize in the design and manufacture of high-performance transformers, dedicated to providing reliable, efficient, and safe power transmission solutions worldwide.";
+            
+            document.querySelector("#about h2").textContent = "About Us";
+            document.querySelector("#about p").textContent = "Founded in 2016, Shuyang Fuzhen Technology has grown into a leading force in the transformer industry, delivering high-quality products across the globe.";
+            
+            document.querySelector("#products h2").textContent = "All Products";
+            
+            document.querySelector("#contact h2").textContent = "Contact Us";
+            document.querySelector("#contact p").textContent = "Phone: +49 1744781537 | WhatsApp: +49 1744781537 | Email: info@shuyangfuzhen.com | Address: Taoyuan Road, Shuyang Economic Development Zone, Shuyang County, Jiangsu Province, China";
+        }
+    });
+});
